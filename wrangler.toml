@@ -1,0 +1,14 @@
+name               = "dormirco-api"
+main               = "src/index.ts"
+compatibility_date = "2024-06-20"
+
+# ── D1 Database ──────────────────────────────────────────────────────────────
+# 1. Creá la DB: wrangler d1 create dormirco-db
+# 2. Copiá el database_id que te devuelve y pegalo abajo
+# 3. Descomentá el bloque completo
+# 4. Corré las migrations: wrangler d1 execute dormirco-db --file=migrations/001_init.sql
+#
+# [[d1_databases]]
+# binding       = "DB"
+# database_name = "dormirco-db"
+# database_id   = "REEMPLAZÁ-CON-TU-ID"
